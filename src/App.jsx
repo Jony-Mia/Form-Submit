@@ -74,41 +74,7 @@ function App() {
             defaultValue={data.number}
           />
           <br />
-          <span>Gender</span>
-          <div>
-            <input
-              onChange={formHandler}
-              type="radio"
-              name="gender"
-              id="male"
-            />
-            <label htmlFor="male">Male</label>
-            <input
-              onChange={formHandler}
-              defaultValue="male"
-              type="radio"
-              name="gender"
-              id="fmale"
-            />
-            <label htmlFor="fmale">Female</label>
-            <input
-              onChange={formHandler}
-              defaultValue="female"
-              type="radio"
-              name="gender"              
-              id="others"
-            />
-            <label htmlFor="others">Others</label>
-          </div>
-          <span>Your Best Subject</span>
-          <div>
-            <input defaultValue={"ICT"} type="checkbox" name="subject" id="ict" />
-            <label htmlFor="ict">ICT</label>
-            <input type="checkbox" name="subject" id="english" />
-            <label htmlFor="english">English</label>
-            <input type="checkbox" name="subject" id="maths" />
-            <label htmlFor="maths">Maths</label>
-          </div>
+         
           <label htmlFor="resume">Upload Resume</label>
           <div>
             <input
